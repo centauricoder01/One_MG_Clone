@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    box-sizing: border-box;
+}
+
+ul div img {
+    width: 7rem;
+    margin-top: 0.05rem;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    background-color: #ffe0bb;
+}
+
+.gap {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    /* padding: 1rem 2rem; */
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li {
+    margin-top: 1.3rem;
+}
+
+.cart button {
+    margin-top: 0.9rem;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 6px;
+}
+
+.cart button a {
+    padding-bottom: 1rem;
+}
+
+.connect{
+    text-align: center;
+}
+.connect h1{
+    color: green;
+}
+
+.socialmedia i{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.lastitem{
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.lastitem button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: #1726ff;
+    background: lightblue;
+    font-weight: bold;
+}
+hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.lastp p{
+    color: red;
+    width: 95%;
+    margin: auto;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+
+.footer{
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+footer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,124 @@
+#category_prodduct{
+    border: 2px solid white;
+    /* width: 30rem; */
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 10px;
+    background-color: #efd68f2b;
+    /* box-shadow: 0px 0px 20px -9px black; */
+}
+
+#itemscontainer {
+    border: 2px solid rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    gap: 3rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 20px -9px black;
+    margin: 3rem 3rem;
+    border-radius: 1rem;
+}
+
+#itemscontainer div {
+    border: 1px solid rgb(212, 255, 255);
+    text-align: center;
+    padding: 1rem 0rem;
+    box-shadow: 0px 0px 16px -3px rgb(33, 33, 33);
+    border-radius: 1rem;
+    
+}
+
+#itemscontainer div button{
+    width: 14rem;
+    height: 2rem;
+    font-size: 16px;
+    background-color: #2bca2bb4;
+    color: white;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+}
+#itemscontainer div button:hover{
+    box-shadow: 0px 0px 16px -3px #13b313;
+
+}
+
+#itemscontainer div h3,p{
+    margin-top: 1rem;
+}
+
+
+/* drop down styling part of the webpage  */
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16.1px;
+    font-size: 17.1px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#dropdownpart{
+    width: 100%;
+    margin: auto;
+}
+
+.siderajubar{
+  display: flex;
+}
+
+.sidenav {
+  border: 1px solid rgb(123, 123, 123);
+  width: 20rem;
+  height: auto;
+  margin-top: 3rem;
+  text-align: center;
+  margin-left: 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin-right: -2rem;
+  margin-bottom: 145rem;
+}
+.sidenav a{
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: rgb(0 0 0 / 50%) 0px 0px 4px 1px;
+}
+
+.sidenav a:hover{
+  box-shadow: rgb(0 0 0 / 81%) 0px 8px 16px 0px;
+}

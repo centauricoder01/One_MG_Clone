@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+.undermain {
+    width: 30%;
+    margin: auto;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 12px 1px rgb(163, 163, 163);
+    border-radius: 1rem;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+
+.inputag {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.inputag input {
+    width: 3rem;
+    border: 2px solid rgb(255, 153, 153);
+    height: 4rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#submit{
+    margin: 3rem;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: rgb(151, 151, 151);
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
